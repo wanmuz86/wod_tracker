@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ADA WOD tracker</title>
+</head>
+<body>
+	<h1>ADA WOD Tracker by Batch 6</h1>
+<div id="form">
+	<h2>Add new WOD</h2>
+
+	<p>
+		Question<br/>
+		<input type="text" name="question" id="question">
+	</p>
+		<p>
+		Difficulty<br/>
+		<input type="text" name="difficulty" id="difficulty">
+	</p>
+		<p>
+		Assigned To<br/>
+		<input type="text" name="assignee" id="assignee">
+	</p>
+	<button id="add">Add new WOD</button>
+</div>
+<div id="table">
+<h2>The WODs</h2>
+<table>
+	<tr>
+		<th>Question</th>
+		<th>Assignee</th>
+		<th>Difficulty</th>
+	</tr>
+</table>
+</div>
+
+<div id="about">
+	<h2>About WOD</h2>
+	<p>WOD question :  <span id="questionspan"></span></p>
+	<p>Difficulty: <span id="difficultyspan"></span></p>
+	<p>Assigned To: <span id="assigneespan"></span></p>
+	<p>Status: <span id="statusspan"></span></p>
+	<button id="markButton">Mark as Done</button> <button id="deleteButton">Delete</button>
+</div>
+
+&copy; ADA Batch 6
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
